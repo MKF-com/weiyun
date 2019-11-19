@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hc_commons" />
+        <module name="hc_business" />
+        <module name="hc_config_server" />
+        <module name="hc_portal_server" />
+        <module name="hc_eureka_center" />
+        <module name="hc_zuul_server" />
+        <module name="hc_perms_admin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hc_business" options="-parameters" />
+      <module name="hc_commons" options="-parameters" />
+      <module name="hc_config_server" options="-parameters" />
+      <module name="hc_eureka_center" options="-parameters" />
+      <module name="hc_perms_admin" options="-parameters" />
+      <module name="hc_portal_server" options="-parameters" />
+      <module name="hc_zuul_server" options="-parameters" />
+    </option>
+  </component>
+</project>
